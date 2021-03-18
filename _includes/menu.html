@@ -1,4 +1,7 @@
 <nav {% if site.reverse == true %}id="nav-left"{% else %}id="nav"{% endif %}>
+	<div id="search-container">
+		<input type="text" id="search-input" placeholder="search...">
+	</div>
 	<div id="nav-list">
 		<a href="{{ '/' | absolute_url }}">Home</a>
 
