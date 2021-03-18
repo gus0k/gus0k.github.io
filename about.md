@@ -1,21 +1,15 @@
 ---
 layout: page
-title: About Emerald
+title: About Me
 ---
-## About
-Emerald is a minimal theme created for Jekyll. The main purpose of Emerald is to provide a clear theme for those who want a blog ready to use, focused on the content and mobile-first.
 
-For further details on Emerald, please visit the [repository on Github](https://github.com/KingFelix/emerald/).
+# Bio
+I was born in Montevideo (Uruguay) where I lived until I was 23.
 
-![Emerald](img/Emerald01.png "Emerald")
+I graduated as a Computer Engineer from Universidad de la Republica (UdelaR) on 2017, and that same year I left for France, where I pursued my Ph.D.
 
-### Setup
-Emerald may be installed by simply downloading the .zip folder from the [repository on Github](https://github.com/KingFelix/emerald/archive/master.zip).
+My Ph.D, mostly Game Theory applied to Smart Grids revolved around the following question: How can we design incentives so that customers offer as much energy flexibility as possible?
 
-After extracting the content from the folder into the selected directory, you can type ``jekyll serve`` from the terminal, than open your browser to ``0.0.0.0:4000/emerald/`` and you will find it there.
+I lived in Paris from 2017 until mid 2020, when I moved to Brussels to work for Centrica Business Solutions Belgium as an Optimization Engineer (mostly R&D).
 
-Additionally it is possible to fork the repository and use Github Pages as hosting. By following this way it will be enough to change the ``baseurl`` value into the ``_config.yml`` file, with the directory name of your project (for example /blog) or simply with a "/" (slash) if you want install Emerald in the root. 
-
-Last but not least: the [Jekyll documentation](http://jekyllrb.com) is the best starting point!
-
-Enjoy!
+Since Februrary 2021, I am working at Tryolabs and living once again in Montevideo.

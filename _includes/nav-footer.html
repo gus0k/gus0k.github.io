@@ -1,5 +1,14 @@
 <footer>
-	
-	<span>version {{ site.version }}</span>
-
+	{% if site.personal.linkedin %}
+	<p><a href="{{ site.personal.linkedin }}" target="_blank" rel="noreferrer noopener"><i
+		  class="fab fa-linkedin"></i> LinkedIn</a></p>
+	{% endif %}
+	{% if site.personal.github %}
+	<p><a href="{{ site.personal.github }}" target="_blank" rel="noreferrer noopener"><i class="fab fa-github">
+		  Github</i></a></p>
+	{% endif %}
+	{% if site.personal.googlescholar %}
+	<p><a href="{{ site.personal.googlescholar }}" target="_blank" rel="noreferrer noopener"><i
+		  class="fas fa-graduation-cap"></i> Google Scholar</a></p>
+	{% endif %}
 </footer>
