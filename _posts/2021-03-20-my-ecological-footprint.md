@@ -8,8 +8,8 @@ How much carbon I am responsible for?
 
 A few days ago I decided to find out how much Green House Gases I was responsible for.
 
-There are many nifty tools out there that can give you an estimate and a I finally settled with Footprint Calculator. Once of the cool features of the website is that it estimates not only your GHG gases but your general footprint. Not only that, but instead of showing you a number that is hard to contextualise (are 6000m2/yr of CO2 too much or too little?), it shows you how many planets Earth full of resources we would need to have if everyone was to have your same lifestyle. 
-In a way, this is a very Sartre way of thinking (“Man is condemned to be free”- Existentialism is a Humanism [1946)), forcing us to think as role models for the rest of the species. 
+There are many nifty tools out there that can give you an estimate and a I finally settled with [Footprint Calculator](https://www.footprintcalculator.org/). Once of the cool features of the website is that it estimates not only your GHG gases but your general footprint. Not only that, but instead of showing you a number that is hard to contextualise (are 6000m2/yr of CO2 too much or too little?), it shows you how many planets Earth full of resources we would need to have if everyone was to have your same lifestyle. 
+In a way, this is a very Sartre way of thinking (“Man is condemned to be free”- Existentialism is a Humanism (1946)), forcing us to think as role models for the rest of the species. 
 
 So, going back to my results: I was surprised. Since I’m vegan, I don’t have a car and I don’t buy many things, I was expecting that my livelihood could be within the reaches of our only lonely planet.
 
