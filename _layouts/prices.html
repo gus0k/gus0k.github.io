@@ -24,7 +24,7 @@ layout: default
 			</tr>
 			{% assign pp = item.price_items | sort: "price" %}
 			{% for price in pp %}
-			{% if price.most_recent == 'yes' %}
+			{% if price.most_recent == True %}
 			<tr>
 				<td>{{ price.brand }}</td>
 				<td>{{ price.store }}</td>
