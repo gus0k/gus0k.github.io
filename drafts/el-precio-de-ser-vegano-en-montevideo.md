@@ -11,7 +11,6 @@ tag: vegan, veganism, montevideo, uruguay, money
 
 
 {% raw %}
-~~~html
 <ul>
 {% for item_hash in site.data.veg_prices_mvd %}
 {% assign item = item_hash[1] %}
@@ -20,5 +19,4 @@ tag: vegan, veganism, montevideo, uruguay, money
   </li>
 {% endfor %}
 </ul>
-~~~
 {% endraw %}
