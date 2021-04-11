@@ -1,6 +1,6 @@
 name: Tofu Natural
 description: El Tofu está zarpado
-brand:
+brands:
   - name: ades
     price_item:
       - date: 11/04/2021

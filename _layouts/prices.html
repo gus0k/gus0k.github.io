@@ -9,25 +9,31 @@ layout: default
 
 		{% for item_hash in site.data.veg_prices_mvd %}
 		{% assign item = item_hash[1] %}
-		<h2>
-			{{item.name}}
-		</h2>
 		<h3>
-			{{item.description}}
+			{{item.name}}
 		</h3>
-		<ul>
-			{% for price in item.price_item %}
-			<li>
-				Tienda: {{ price.store }}
-			</li>
-			<li>
-				Fecha: {{ price.date }}
-			</li>
-			<li>
-				Precio por kilo/litro: {{ price.price_per_liter }}
-			</li>
+		<h4>
+			{{item.description}}
+		</h4>
+		<table style="width:100%">
+			<tr>
+				<th>Marca</th>
+				<th>Tienda</th>
+				<th>Fecha</th>
+				<th>Precio</th>
+			</tr>
+			{% for brand in item.brands %}
+			{% for price in brand.price_item %}
+
+			<tr>
+				<td>{{ brand.name }}</td>
+				<td>{{ price.date }}</td>
+				<td>{{ price.store }}</td>
+				<td>{{ price.price_per_liter }}</td>
+			</tr>
 			{% endfor %}
-		</ul>
+			{% endfor %}
+		</table>
 
 		{% endfor %}
 		{{ content }}
