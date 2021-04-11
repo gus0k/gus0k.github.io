@@ -12,9 +12,9 @@ layout: default
 		<h3>
 			{{item.name}}
 		</h3>
-		<h4>
+		<p>
 			{{item.description}}
-		</h4>
+		</p>
 		<table style="width:100%">
 			<tr>
 				<th>Marca</th>
@@ -22,11 +22,10 @@ layout: default
 				<th>Fecha</th>
 				<th>Precio</th>
 			</tr>
-			{% for brand in item.brands %}
-			{% for price in brand.price_item %}
+			{% for price in item.price_items | sort 'price' %}
 
 			<tr>
-				<td>{{ brand.name }}</td>
+				<td>{{ price.brand }}</td>
 				<td>{{ price.date }}</td>
 				<td>{{ price.store }}</td>
 				<td>{{ price.price_per_liter }}</td>
