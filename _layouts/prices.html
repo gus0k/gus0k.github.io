@@ -7,17 +7,29 @@ layout: default
 	<time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date_to_string }}</time>
 	<div class="content">
 
+		{% for item_hash in site.data.veg_prices_mvd %}
+		{% assign item = item_hash[1] %}
+		<h2>
+			{{item.name}}
+		</h2>
+		<h3>
+			{{item.description}}
+		</h3>
 		<ul>
-			{% for item_hash in site.data.veg_prices_mvd %}
-			{% assign item = item_hash[1] %}
+			{% for price in item.price_item %}
 			<li>
-				<a>
-					{{ item.name }}
-				</a>
+				Tienda: {{ price.store }}
+			</li>
+			<li>
+				Fecha: {{ price.date }}
+			</li>
+			<li>
+				Precio por kilo/litro: {{ price.price_per_liter }}
 			</li>
 			{% endfor %}
 		</ul>
 
+		{% endfor %}
 		{{ content }}
 
 	</div>
