@@ -1,0 +1,15 @@
+name: Leche de Soja
+description: Tiene tremendas propiedades tipo pila de proteina y PA! re zarpada
+price_items:
+  - brand: ades
+    date: 11/04/2021
+    store: Tienda Inglesa
+    price: 92
+  - brand: ades
+    date: 11/04/2021
+    store: Disco
+    price: 90
+  - brand: valsoia
+    date: 11/04/2021
+    store: Tienda Inglesa
+    price: 167

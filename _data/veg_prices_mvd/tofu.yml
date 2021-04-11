@@ -1,15 +1,7 @@
 name: Tofu Natural
 description: El Tofu está zarpado
 price_items:
-  - brand: ades
+  - brand: Naturezas
     date: 11/04/2021
-    store: Tienda Inglesa
-    price: 92
-  - brand: ades
-    date: 11/04/2021
-    store: Disco
-    price: 90
-  - brand: valsoia
-    date: 11/04/2021
-    store: Tienda Inglesa
-    price: 167
+    store: Kiosko Veganoide
+    price: 400
