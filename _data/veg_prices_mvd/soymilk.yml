@@ -5,11 +5,14 @@ price_items:
     date: 11/04/2021
     store: Tienda Inglesa
     price: 92
+    most_recent: yes
   - brand: ades
     date: 11/04/2021
     store: Disco
     price: 90
+    most_recent: yes
   - brand: valsoia
     date: 11/04/2021
     store: Tienda Inglesa
     price: 167
+    most_recent: yes

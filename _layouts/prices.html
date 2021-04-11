@@ -22,14 +22,16 @@ layout: default
 				<th>Fecha</th>
 				<th>Precio</th>
 			</tr>
-			{% for price in item.price_items | sort 'price' %}
-
+			{% asign prices = item.price_items | sort 'price'}
+			{% for price in prices %}
+			{% if price.most_recent == 'yes' %}
 			<tr>
 				<td>{{ price.brand }}</td>
 				<td>{{ price.store }}</td>
 				<td>{{ price.date }}</td>
 				<td>$ {{ price.price }}</td>
 			</tr>
+			{% endif %}
 			{% endfor %}
 		</table>
 
