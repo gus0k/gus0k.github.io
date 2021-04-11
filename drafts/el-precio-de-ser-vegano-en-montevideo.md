@@ -20,5 +20,5 @@ tag: vegan, veganism, montevideo, uruguay, money
   </li>
 {% endfor %}
 </ul>
-~~~html
+~~~
 {% endraw %}
