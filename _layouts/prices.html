@@ -22,7 +22,7 @@ layout: default
 				<th>Fecha</th>
 				<th>Precio</th>
 			</tr>
-			{% assign prices = item.price_items | sort 'price'}
+			{% assign prices = item.price_items | sort 'price' %}
 			{% for price in prices %}
 			{% if price.most_recent == 'yes' %}
 			<tr>
