@@ -1,0 +1,16 @@
+name: Tofu Natural
+description: El Tofu está zarpado
+brand:
+  - name: ades
+    price_item:
+      - date: 11/04/2021
+        store: Tienda Inglesa
+        price_per_liter: 92
+      - date: 11/04/2021
+        store: Disco
+        price_per_liter: 90
+  - name: valsoia
+    price_item:
+      - date: 11/04/2021
+        store: Tienda Inglesa
+        price_per_liter: 167
