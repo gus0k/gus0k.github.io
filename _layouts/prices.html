@@ -22,8 +22,8 @@ layout: default
 				<th>Fecha</th>
 				<th>Precio</th>
 			</tr>
-			{% assign prices = item.price_items | sort 'price' %}
-			{% for price in prices %}
+			{% assign pp = item.price_items | sort: "price" %}
+			{% for price in pp %}
 			{% if price.most_recent == 'yes' %}
 			<tr>
 				<td>{{ price.brand }}</td>
